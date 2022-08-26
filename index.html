@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="one" id="navbar">
+            <header style="color: white;">HTML Tutorial</header>
+            <ul>
+                <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+                <li><a href="#class_Attribute" class="nav-link">class Attribute</a></li>
+                <li><a href="#id_Attribute" class="nav-link">id Attribute</a></li>
+                <li><a href="#Semantic_Elements" class="nav-link">Semantic Elements</a></li>
+                <li><a href="#Attributes" class="nav-link">Attributes</a></li>
+                <li><a href="#HTML_Comments" class="nav-link">HTML Comments</a></li>
+                <li><a href="#HTML_Entities" class="nav-link">HTML Entities</a></li>
+                <li><a href="#HTML_Symbols" class="nav-link">HTML Symbols</a></li>
+            </ul>
+        </nav> 
+        <main class="two" id="main-doc">
+            <section class="main-section" id="Introduction">
+                <header>Introduction</header>
+                <articl>
+                    <p>HTML is the standard markup language for Web pages.
+                        With HTML you can create your own Website.
+                        HTML is easy to learn - You will enjoy it!
+                    </p>
+                    <p>Easy Learning with HTML <br><strong>Example:</strong></br></p>
+                    <code><span><</span>!DOCTYPE html> <br>
+                        <span><</span>html><br>
+                        <span><</span>head><br>
+                        <span><</span>title>Page Title</title><br>
+                        <span><</span>/head><br>
+                        <span><</span>body><br>
+                        <span><</span>h1>This is a Heading<span><</span>/h1><br>
+                        <span><</span>p>This is a paragraph.<span><</span>/p>  <br>  
+                        <span><</span>/body><br>
+                        <span><</span>/html>
+                    </code>
+                </articl>
+            </section>
+            <section class="main-section" id="class_Attribute">
+                <header>class Attribute</header>
+                <articl>
+                    <p>The HTML class attribute is used to specify a class for an HTML element.Multiple HTML elements can share the same class.</p>
+                    <p>The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.</p>
+                    <ul>
+                        <li>The class attribute can be used on any HTML element.</li>
+                        <li>The class name is case sensitive!</li>
+                        <li>You can learn much more about CSS in our CSS Tutorial.</li>
+                    </ul>
+                    <p><br><strong>Example:</strong></br></p>
+                    <code>
+                        <span><</span>h2 class="city">Paris<span><</span>/h2>
+                    </code>
+                </articl>
+            </section>
+            <section class="main-section" id="id_Attribute">
+                <header>id Attribute</header>
+                <articl>
+                    <p>The HTML id attribute is used to specify a unique id for an HTML element. <br>
+                    You cannot have more than one element with the same id in an HTML document.</p>
+                    <p>The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.</p>
+                    <ul>
+                        <li>The id name is case sensitive!</li>
+                        <li>The id name must contain at least one character, cannot start with a number, and must not contain whitespaces (spaces, tabs, etc.).</li>
+                    </ul>
+                    <p><br><strong>Example:</strong></br></p>
+                    <code>
+                        <span><</span>h1 id="myHeader">My Header<span><</span>/h1>
+                    </code>
+                </articl>
+            </section>
+            <section class="main-section" id="Semantic_Elements">
+                <header>Semantic Elements</header>
+                <articl>
+                    <p><strong>What are Semantic Elements?</strong><br>
+                    </p>
+                    <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+                    <ul>
+                        <li>Examples of non-semantic elements: <span><</span>div> and <span><</span>span> - Tells nothing about its content.</li>
+                        <li>Examples of semantic elements: <span><</span>form>, <span><</span>table>, and <span><</span>article> - Clearly defines its content.</li>
+                    </ul>
+                    <p><br><strong>Example:</strong></br></p>
+                    <code>
+                        <span><</span>section><br>
+                            <span><</span>h1>WWF<span><</span>/h1><br>
+                            <span><</span>p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.<span><</span>/p><br>
+                            <span><</span>/section><br>
+                            
+                            <span><</span>section><br>
+                            <span><</span>h1>WWF's Panda symbol<span><</span>/h1><br>
+                            <span><</span>p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.<span><</span>/p><br>
+                            <span><</span>/section>
+                    </code>
+                </articl>
+            </section>
+            <section class="main-section" id="Attributes">
+                <header>Attributes</header>
+                <articl>
+                    <p>HTML attributes provide additional information about HTML elements.</p>
+                    <ul>
+                        <li>All HTML elements can have attributes</li>
+                        <li>Attributes provide additional information about elements</li>
+                        <li>Attributes are always specified in the start tag</li>
+                        <li>Attributes usually come in name/value pairs like: name="value"
+                        </li>
+                    </ul>
+                    <p><br><strong>Example:</strong></br></p>
+                    <code>
+                        <span><</span>a href="https://www.w3schools.com">Visit W3Schools<span><</span>/a>
+                    </code>
+                </articl>
+            </section>
+            <section class="main-section" id="HTML_Comments">
+                <header>HTML Comments</header>
+                <articl>
+                    <p>HTML comments are not displayed in the browser, but they can help document your HTML source code.</p>
+                    <p><br><strong>Example:</strong></br></p>
+                    <code>
+                        <span><</span>!-- Write your comments here -->
+                    </code>
+                </articl>
+            </section>
+            <section class="main-section" id="HTML_Entities">
+                <header>HTML Entities</header>
+                <articl>
+                    <p>Reserved characters in HTML must be replaced with character entities.</p>
+                    <p><br><strong>Example:</strong></br></p>
+                    <ul>
+                        <li>§ 10</li>
+                        <li>10 km/h</li>
+                        <li>10 PM</li>
+                    </ul>
+                </articl>
+            </section>
+            <section class="main-section" id="HTML_Symbols">
+                <header>HTML Symbols</header>
+                <articl>
+                    <p><strong>HTML Symbol Entities</strong></p>
+                    <p>HTML entities were described in the previous chapter.</p>
+                    <p>Many mathematical, technical, and currency symbols, are not present on a normal keyboard.</p>
+                    <p>To add such symbols to an HTML page, you can use the entity name or the entity number (a decimal or a hexadecimal reference) for the symbol.</p>
+                    <p><br><strong>Example:</strong></br></p>
+                    <code>
+                        <span><</span>p>I will display <span>&</span>euro;<span><</span>/p> <br>
+                        <span><</span>p>I will display <span>&</span>#8364;<span><</span>/p> <br>
+                        <span><</span>p>I will display <span>&</span>#x20AC;<span><</span>/p>
+                    </code>
+                    <p>Will display as:</p>
+                    <code>
+                        I will display € <br>
+                        I will display € <br>
+                        I will display €
+                    </code>
+                </articl>
+            </section>
+        </main>
+    </div> <!-- /.container -->
+</body>
+</html>
